@@ -1,0 +1,57 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:prettier/recommended",
+        "plugin:testing-library/recommended",
+        "plugin:testing-library/react"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "prettier",
+        "testing-library",
+        "jest"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true
+        }
+      ],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "jest/prefer-to-have-length": "warn",
+      "jest/valid-expect": "error",
+      "import/prefer-default-export": "off",
+      "react/jsx-one-expression-per-line": "off",
+      "prettier/prettier": "error",
+      "react/jsx-props-no-spreading": "off",
+      "react/jsx-curly-newline": "off",
+      "react/jsx-wrap-multilines": ["error", {"declaration": false, "assignment": false}],
+      "no-underscore-dangle": "off",
+      "testing-library/await-async-query": "error",
+      "testing-library/no-await-sync-query": "error",
+      "testing-library/no-debug": "warn"
+    }
+  }
