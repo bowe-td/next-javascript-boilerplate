@@ -1,6 +1,6 @@
-<p style="text-align: center;">![Bowe Next Javascript Boilerplate](https://i.imgur.com/LZtI7yk.png)</p>
+<div style="text-align: center;"> <img src='https://i.imgur.com/LZtI7yk.png' alt='Bowe Next Javascript Boilerplate'/><div/>
 
-This is a [Next.js](https://nextjs.org/) boilerplate from [Bowe Next Javascript Boilerplate](https://bowe.com.br/).
+This is a [Next.js](https://nextjs.org/) boilerplate from [Bowe](https://bowe.com.br/).
 
 ## What is inside?
 
