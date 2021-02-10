@@ -1,6 +1,6 @@
 <p style="text-align: center;">![Bowe Next Javascript Boilerplate](https://i.imgur.com/LZtI7yk.png)</p>
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [Bowe Next Javascript Boilerplate](https://bowe.com.br/).
+This is a [Next.js](https://nextjs.org/) boilerplate from [Bowe Next Javascript Boilerplate](https://bowe.com.br/).
 
 ## What is inside?
 
