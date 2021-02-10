@@ -1,6 +1,6 @@
 <p align="center"><img src='https://i.imgur.com/LZtI7yk.png' alt='Bowe Next Javascript Boilerplate'/></p>
 
-<p align="center">This is a [Next.js](https://nextjs.org/) boilerplate from [Bowe](https://bowe.com.br/).</p>
+<p align="center">This is a <a href="https://nextjs.org/">Next.js</a> boilerplate from <a href="https://bowe.com.br/">Bowe</a></p>
 
 ## What is inside?
 
