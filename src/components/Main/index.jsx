@@ -1,9 +1,7 @@
+import PropTypes from 'prop-types';
 import * as S from './styled';
 
-const Main = ({
-  title = 'React Avançado',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components',
-}) => (
+const Main = ({ title, description }) => (
   <S.Wrapper>
     <S.Logo
       src="/img/logo.svg"
@@ -17,5 +15,15 @@ const Main = ({
     />
   </S.Wrapper>
 );
+
+Main.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+};
+
+Main.defaultProps = {
+  title: 'React Avançado',
+  description: 'TypeScript, ReactJS, NextJS e Styled Components',
+};
 
 export default Main;

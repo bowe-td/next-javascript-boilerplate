@@ -45,6 +45,7 @@
       "jest/valid-expect": "error",
       "import/prefer-default-export": "off",
       "react/jsx-one-expression-per-line": "off",
+      "react/react-in-jsx-scope": "off",
       "prettier/prettier": "error",
       "react/jsx-props-no-spreading": "off",
       "react/jsx-curly-newline": "off",

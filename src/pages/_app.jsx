@@ -1,4 +1,6 @@
+/* eslint-disable react/forbid-prop-types */
 import Head from 'next/head';
+import PropTypes from 'prop-types';
 import GlobalStyles from '../styles/global';
 
 function App({ Component, pageProps }) {
@@ -19,5 +21,10 @@ function App({ Component, pageProps }) {
     </>
   );
 }
+
+App.propTypes = {
+  Component: PropTypes.any.isRequired,
+  pageProps: PropTypes.any.isRequired,
+};
 
 export default App;
