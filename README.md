@@ -1,4 +1,4 @@
-<div style="text-align: center;"> <img src='https://i.imgur.com/LZtI7yk.png' alt='Bowe Next Javascript Boilerplate'/><div/>
+<p align="center"><img src='https://i.imgur.com/LZtI7yk.png' alt='Bowe Next Javascript Boilerplate'/></p>
 
 This is a [Next.js](https://nextjs.org/) boilerplate from [Bowe](https://bowe.com.br/).
 
